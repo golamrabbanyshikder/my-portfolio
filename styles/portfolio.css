@@ -162,5 +162,70 @@ color: #757575;
     /* Dark 02 */
     color: #474747;
 }
+.resume-container{
+    display: flex;
+    gap: 50px;
+}
+.resume-container hr{
+    margin-top: 30px;
+}
+
+/* Master in Computer Engineering */
+.resume-item-title{
+font-weight: 700;
+font-size: 25px;
+color: #474747;
+margin-bottom: 10px;
+
+}
+
+.resume-item-info{
+font-weight: 600;
+font-size: 20px;
+color: #757575;
+margin-top: 0px;
+margin-bottom: 20px;
+
+}
+.resume-item-description{
+font-weight: 400;
+font-size: 16px;
+color: #757575;
 
 
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
+}
+footer{
+    display: flex;
+    background-color: #FFF8F3;
+    padding: 130px 200px;
+    margin-top: 100px;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+.footer-secDes{
+    text-align: left ;
+    
+}
+.footer-secTitle{
+    text-align: left ;
+}
+.social-links a{
+    margin-right: 24px;
+}
+.contact_form input[type="text"],input[type="email"],
+textarea{
+    display: block;
+    margin-bottom: 24px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: #FFFFFF;
+    border: 0px;
+    width: 100%;
+}
