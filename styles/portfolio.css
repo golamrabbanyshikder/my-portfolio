@@ -94,6 +94,10 @@ margin-bottom: 0px;
     margin-top: 0px;
 }
 
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
 
 .about{
     padding: 130px;
@@ -116,4 +120,11 @@ font-size: 18px;
 text-align: center;
 color: #757575;
 
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.info-title{
+    text-align: center;
 }
